@@ -1,0 +1,107 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+}
+
+.primaLuna{
+    height: 80vh;
+    background-image: url(./Black/media/moon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sfondoNav{
+    background-color: black;
+}
+
+hr{
+    height: 25px;
+}
+
+.carattere {
+    color: white;
+}
+
+.carattere2{
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 550px) {
+    .custom-justify {
+    flex-wrap: wrap;
+    }
+    
+    .custom-justify .col-3 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+.linea{
+    border: 2px solid cornflowerblue;
+}
+
+.moon{
+    height: 50vh;
+}
+
+h2{
+    color: cornflowerblue;
+}
+
+.custom-spacing{
+    margin-top: 20vh;
+}
+
+.custom-row-height {
+    height: 400vh;
+}
+
+.linetta{
+    border: 1px solid cornflowerblue;
+}
+
+.scritta{
+    color: cornflowerblue;
+}
+
+p{
+    color: white;
+}
+
+.spacing{
+    margin-bottom: 23vh;
+}
+
+.rocketHeight{
+    height: 100vh;
+}
+
+.go-to-container {
+    text-align: right;
+    padding-right: 4vw;
+}
+
+.footer-line {
+    height: 7px;
+    background: linear-gradient(to right, #000, #6495ED, #000);
+}
+
+@media (max-width: 767px) {
+    .footer-line {
+        height: 3px;
+    }
+}
+
+.spazio{
+    margin-top: -20vh;
+}
+
+@media (max-width: 767px) {
+    .spacing .col-12 {
+        margin-bottom: -10vh;
+    }
+}
+
